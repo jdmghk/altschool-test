@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Media Elements</title>
+</head>
+<body>
+    <h1>About Me</h1>
+
+    <picture>
+        <!-- Desktop -->
+        <source srcset="/images/final-image.jpg" media="(min-width: 1024px)">
+        <!-- Tablet landscape -->
+        <source srcset="/images/meka.jpg" media="(min-width: 768px)">
+        <!-- Mobile -->
+        <source srcset="/images/alsome.jpg" media="(min-width: 320px)">
+        <!-- Fallback image for browsers that don't support picture -->
+        <img src="/images/me.jpg" alt="My Profile Picture">
+    </picture>
+
+    <h2>Welcome to My World</h2>
+
+    <p>Hello! I'm an aspiring cloud engineer passionate about creating amazing digital experiences.</p>
+
+    <h3>My Favorite Quote</h3>
+
+    <blockquote>
+        <p>"The only way to do great work is to love what you do." - Steve Jobs</p>
+    </blockquote>
+
+    <h3>A video I made for Korty's DREAMLAND</h3>
+
+    <video controls width="270" height="480">
+        <source src="Comp 1_1.mp4" type="video/mp4">
+    </video>
+
+    <h3>My Favourite Song</h3>
+
+    <audio controls>
+        <source src="Happy_Birthday-Sunny_Neji.mp3" type="audio/mpeg">
+    </audio>
+
+    <h3>My Skills</h3>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Connect with Me</h3>
+
+    <p>Feel free to reach out:</p>
+    <address>
+        Email: <a href="jacinthdavid70@gmail.com">jacinthdavid70@gmail.com</a><br>
+        Twitter: <a href="https://twitter.com/jdmghk">https://twitter.com/jdmghk</a><br>
+        GitHub: <a href="https://github.com/jdmghk">https://github.com/jdmghk</a>
+    </address>
+
+    <footer>
+        <p>&copy; 2024 My Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
